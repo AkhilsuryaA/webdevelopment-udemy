@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+    font-size: 150px;
+}
+
+img {
+    background-color: rgb(0, 60, 128);
+}
+
+.spaghetti {
+    background-color: red;
+}
+
+#spagh {
+    background-color: orange;
+}
+
+.biriyani {
+    background-color: green;
+}
