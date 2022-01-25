@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HTML - This is a level 1 h1 tag </h1>
+    <h1>Heading level 1</h1>
+    <h2>Heading level 2</h2>
+    <h3>Heading level 3</h3>
+    <h4>Heading level 4</h4>
+    <h5>Heading level 5</h5>
+    <h6>Heading level 6</h6>
+    <a href="https://developer.mozilla.org/en-US/">
+        text
+    </a>
+    <!-- this is a br tag used to 
+ put a line break 
+-->
+    <br>
+
+    <center>
+        <hr><!-- this is a line rule tag no close tag needed-->
+        <h2>puts elemnet at center</h2>
+        <hr><!-- this is a line rule tag no close tag needed-->
+        <h3>Donald Knuth</h3>
+    </center>
+    <br>
+    <h4>Html & Boilerplate</h4>
+    <p>
+        an html boiler plate is a template of code that we can reuse.
+        <br><br>
+        'Doctype html is defined at top of html page that is html5'
+        <br><br>
+        'meta tag charset utf-8'
+        <br> <br>
+        all the text in webpage is encoded with unicode -> contains all available character encodes
+        <br><br>
+        meta tags give information about how to render or display content it can also provide information to search
+        engine
+        like in meta tag name descriptiona and content as its content
+        <br><br>
+        "meta name="viewport" content="width=device-width, initial-scale=1.0""
+    </p>
+    <h4>Structure</h4>
+    <em>Emphasis <strong>this <a href="#">thing</a> </strong></em>
+    <p>
+        html content should always be inside a "body" tag
+    </p>
+    <p>
+        The indent helps us in structure code in html, very helpful in reading & understanding code.
+    </p>
+    <p>
+        "em" tag helps to emphasis a text inside it, we can italise text using it, whrn used with anchor tags it
+        underlines text
+        avoid "i" tag and "b"
+        use "em" and "strong" instead
+    </p>
+    <h4>List</h4>
+    <ul>
+        <li>one</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <ol type="A">
+        <li>one</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <p>Two kind of lists ordered and unordered
+        "ol" for ordered "ul" for unordered
+        ul gives dot as prefix
+        ol can give numbers, letters, roman as prefix. type attribute is used to do that
+        "li" used in both for listing out items
+    </p>
+    <h4>Image</h4>
+    <img height='100' width="175"
+        src="https://image.shutterstock.com/image-illustration/orange-3d-number-200-isolated-600w-2039542001.jpg"
+        alt="Sample Image" />
+    <p>
+        "img" tag is used for img, its a self closing tag
+        attricbute "src" is used to display image
+        it can be a link or a image from local source
+        "alt" attribute can contain information about the img or anything you want to convey
+    </p>
+    <h4>Anchor Tags</h4>
+    <a href="#">Test Link</a>
+    <p>
+        "anchor" tags are clickable elements that can contain linke to external websites and html pages inside code
+        itself
+        "href" attribute is used to fed links and sources
+    </p>
+    <h4>Table</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Sl.No</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Doe</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        "table" tag creates table and has thead , tbody, tfoot, th, tr, td elements inside it.
+        tables can be uesd to create a layout on html
+    </p>
+    <h4>Emoji On Windows ⭐😊😂❤<h4>
+            <p>
+                Press windows button + .(fullstop) or windows + ;(semicolon)
+                will open a window with emojis
+            </p>
+            <h4>Form</h4>
+            <form>
+                <label>Name : </label>
+                <input type="text" /><br />
+                <input type="submit" />
+            </form>
+            <p>
+                we can design and structure a form without js
+                "label" gives a label to the field
+                form has different attributes like action , method etc
+                input is a self closing tag
+            </p>
+            <h4>Personal Site HTML <a href="https://akhilsuryaa.github.io/cv/">
+                    visit site....
+                </a></h4>
+
+            <h1>
+                CSS
+            </h1>
+            <h4>Inline CSS</h4>
+            <p style="background-color: powderblue;">
+                This is sample text
+            </p>
+            <p>
+                we can style elements using inline css, css written by using style attribute on an html tag
+            </p>
+            <h4>Internal CSS</h4>
+            <p>
+                we write css code inside a style tag for a tag
+                usually inside a head tag before body tag
+                usually done for styling that certain page
+            </p>
+            <h4>External CSS</h4>
+            <p>
+                we write css code inside a stylesheet page used globally.
+                this is the proposed method
+            </p>
+            <style>
+                hr {
+                    border-style: none;
+                    border-top-style: dotted;
+                    border-color: grey;
+                    border-width: 5px;
+                    width: 10%;
+                }
+            </style>
+            <hr>
+            <h4>CSS Selectors</h4>
+            <p>
+                tag,class and id are all used to select elements and select them.
+                out of all these id selectors is most specific (inline comes even before that, but is not selector.)
+                multiple class can be used on same element but not ids
+                ids shouldn't be repeated on same page
+            </p>
+            <h4>FavIcons</h4>
+            <p>
+                Icons that prefix website title
+            </p>
+            <h4>div tag</h4>
+            <p>
+                divs are building blocks that doesnt do anything without any style or anything inside them, they allows
+                us to divide the content in html
+            </p>
+            <h3>
+                html body has default styles including a margin property, which gives margin to each side of body, which
+                can be removed.
+            </h3>
+            <h4>
+                width,height, padding,border and margin -> box modal
+            </h4>
+            <h4>
+                display property
+            </h4>
+            <p>
+            <div>hi block</div>
+            <span> inline </span> <span> element </span>
+            <br />
+            <div style="display : inline-block">hi inline block</div>
+            <div style="display : inline-block">hi inline block</div>
+            <br />
+            display has block,inline, inline-block and none properties
+            block blocks everything on its level only the element has place in that row
+            <br />
+            inline can place elements along the line but can't change width
+            <br />
+            inline-block can have width and place elemnts along the line
+            </p>
+            <h4>
+                HTML Rules
+            </h4>
+            <p>
+                1.Content is everything, it defines all the properties height width and position default
+            </p>
+            <p>
+                2. deafult layout order is determined by our code layout
+            </p>
+            <p>
+                3. children sits on top of parent
+            </p>
+            <h4>
+                CSS Positioning
+            </h4>
+            <p>
+                Static<br>
+                This is the default posotion of the html
+            </p>
+            <p>
+                Relative<br>
+                here the position is changed relative to its original position using four
+                co-ordinates(top,bottom,left&right)
+                <br>there will be no changes to other elements around this element.<br>Its said that the relative
+                position makes the element to leave its ghost in place of its original position<br> lets say that its
+                gives a margin between original positiona and new position
+            </p>
+            <br>
+            <p>
+                Absolute<br>
+                we are adding a margin to the parent element
+                <br>Positioning the element relative to the parent
+                <br>The content around it changes its position since its changing its absolute position, its like remove
+                the element from previos place and placing it somewhere else,removes element from html flow
+            </p>
+            <p>
+                Fixed<br>
+                the position is fixed relative to the body of website
+            </p>
+            <h4>
+                Centering elements with css
+            </h4>
+            <p style="text-align : center;">
+                we can center elements with css, if its only text <br>
+                we can do it using property "text-align : center;"
+            </p>
+            <p style="margin : 0 auto; width : 200px; background-color : #6fbfbf">
+                for an element with width we can set left right margins to auto
+            </p>
+            <h4>
+                Fonts
+            </h4>
+            <p>
+                websafe fonts, set of fonts that might be available in all pcs</br>
+                <a href="https://fonts.google.com/">fonts.google.com</a> is best thing to get our required type of fonts
+                with alternatives.
+            </p>
+            <h4>
+                Font Size
+            </h4>
+            <p>
+                type of sizing units are px, pt, %, em and rem</br>
+                16px = 1em = 1rem</br>
+                em , rem are dynamic : they change with broser settings</br>
+                whereareas px doesn't.</br>
+                em and % are inheriting sizes, they will apply parent size along with their own, resulting in wierd
+                circustances.</br>
+                rem doesnt do that, it keeps the given size , it doesnt get affected by the upstream changes.
+            </p>
+            <h4>
+                Css Float and Clear
+            </h4>
+            <p>
+                Float lets contents float around other content and mainly used to wrap content and text around an image
+            </p>
+            <p>
+                when we use float property and when we want next element below we can use clear property, it can define
+                what should happen to an element beside a floating content
+            </p>
+            <div>
+                <h3>
+                    Bootstrap
+                </h3>
+                <p>Bootstrap is bunch of code that is put into the website that can be reused which helps in styling the website, it was originally developed by twitter.
+                    It has predefined styles for our html elements.It also has classes that has been specially styled, we can use them to style our contents.
+                    It can be installed using multiple methods
+                    <ul>
+                        <li>cdn link (browser cashes the bootstrap so we dont have to download again, reduces latency)</li>
+                        <li>bootstrap.css file link</li>
+                        <li></li>
+                    </ul>
+                </p>
+            </div>
+            <div>
+                <h3>Wireframes</h3>
+                <p>a low fidelity representation of our website, just a layout which can say where our content wants to be, we also do it very specifically
+                    by high fidelity its called mockup-> what you see is what you gonna end up with.
+                </p>
+            </div>
+</body>
+
+</html>
