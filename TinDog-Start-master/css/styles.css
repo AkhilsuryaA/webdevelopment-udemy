@@ -12,6 +12,14 @@ h1 {
     line-height: 1.5;
     font-size: 3.5rem;
 }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -59,18 +67,53 @@ p {
 .title-img {
     width : 60%;
     transform: rotate(30deg);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Features Section */
 
-.feature-items {
-    width : 22%;
-    float: left;
-    padding: 0 2rem;
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
 }
 
 .feature-icon {
     color: #ef8172;
-    font-size: 3rem;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+.feature-icon:hover {
+    color: #ff4c68
+  }
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+   margin: 20px;
+    width: 10%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
 }
